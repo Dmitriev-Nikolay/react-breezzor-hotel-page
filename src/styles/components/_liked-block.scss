@@ -1,17 +1,15 @@
-.maps-block {
+.may-also-like-block {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin-bottom: calc(var(--spacer) * 8);
-    position: relative;
+    margin-bottom: calc(var(--spacer) * 12);
 
     &__title {
         margin-bottom: calc(var(--spacer) * 3);
     }
 
     &__info {
-        margin-bottom: calc(var(--spacer) * 6);
-        max-width: calc(var(--spacer) * 72);
+        max-width: calc(var(--spacer) * 100);
     }
 }

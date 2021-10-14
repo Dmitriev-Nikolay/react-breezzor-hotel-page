@@ -5,6 +5,7 @@
     --paragraphe-color: var(--text);
     --data-color: var(--text-paragraphe);
     --icons-text-color: var(--text-icon);
+    --link-color: var(--text-second);
 
     --text-button-color: var(--text-second);
     --lineHeightMod: 8px;
@@ -32,6 +33,17 @@
     color: var(--sub-headling-color);
 }
 
+.links-headline {
+    font-family: Montserrat, sans-serif;
+    font-size: calc(var(--spacer) * 2.5);
+    font-style: normal;
+    font-weight: 600;
+    line-height: calc(var(--spacer) * 3 + var(--lineHeightMod));
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--headline-color);
+}
+
 .paragraph {
     font-family: Roboto, sans-serif;
     font-size: calc(var(--spacer) * 1.75);
@@ -52,6 +64,18 @@
     letter-spacing: 0.25px;
     text-align: left;
     color: var(--sub-headling-color);
+}
+
+.agreements-text {
+    font-family: Roboto, sans-serif;
+    font-size: calc(var(--spacer) * 1.25);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(var(--spacer) * 1 + var(--lineHeightMod));
+    letter-spacing: 0.2px;
+    text-align: left;
+    text-decoration: underline;
+    color: var(--paragraphe-color);
 }
 
 .data {
@@ -120,28 +144,21 @@
     color: var(--paragraphe-color);
 }
 
-// a,
-// .link {
-//     color: var(--text-button-color);
-//     text-decoration: none;
-//     transition: color 0.15s linear 0.075s;
-//     font-family: Poppins, sans-serif;
-//     font-size: calc(var(--spacer) * 2);
-//     font-style: normal;
-//     font-weight: 400;
-//     line-height: calc(var(--spacer) * 2 + var(--lineHeightMod));
-//     letter-spacing: 0.2px;
-//     text-align: center;
+.link {
+    font-family: Roboto, sans-serif;
+    font-size: calc(var(--spacer) * 1.75);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(var(--spacer) * 2 + var(--lineHeightMod));
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: var(--link-color);
 
-//     &:hover {
-//         color: var(--link-hover-color);
-//     }
+    &:hover {
+        color: darken(#0468ff, 22%);
+    }
 
-//     &--option {
-//         color: var(--link-hover-color);
-
-//         &:hover {
-//             color: var(--first-text);
-//         }
-//     }
-// }
+    &:active {
+        transform: var(--scale-small);
+    }
+}

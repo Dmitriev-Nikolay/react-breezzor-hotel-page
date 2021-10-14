@@ -1,6 +1,8 @@
 import React from 'react';
 
-import { Slider } from '../../components';
+import { Slider, GoogleMap, LikeCards } from '../../components';
+
+import { SwiperSlide } from 'swiper/react';
 
 import infrastructureIcon0 from '../../assets/img/Infrastructureicon-0.png';
 import infrastructureIcon1 from '../../assets/img/Infrastructureicon-1.png';
@@ -16,11 +18,52 @@ import infrastructureIcon10 from '../../assets/img/Infrastructureicon-10.png';
 import infrastructureIcon11 from '../../assets/img/Infrastructureicon-11.png';
 import infrastructureIcon12 from '../../assets/img/Infrastructureicon-12.png';
 import infrastructureIcon13 from '../../assets/img/Infrastructureicon-13.png';
+
 import star from '../../assets/img/star.png';
 import add from '../../assets/svg/add.svg';
 import avatarFeedback from '../../assets/img/avatar-feedback.png';
 
+import slider1 from '../../assets/img/slider-0.png';
+
+import scuba from '../../assets/img/like-card-1.png';
+import fishing from '../../assets/img/like-card-2.png';
+import balloon from '../../assets/img/like-card-3.png';
+
 const Home = () => {
+
+    const likeCards = [
+        {
+            id: 0,
+            location: 'Country, Region',
+            price: '$ 15.000 / hour',
+            title: 'Your Experience',
+            duration: 'Duration: from 60 min',
+            desc: 'Training and Riding Horses and Ponies',
+            likes: 8,
+            photo: scuba,
+        },
+        {
+            id: 1,
+            location: 'Country, Region',
+            price: '$ 15.000 / hour',
+            title: 'Your Experience',
+            duration: 'Duration: from 60 min',
+            desc: 'Training and Riding Horses and Ponies',
+            likes: 8,
+            photo: fishing,
+        },
+        {
+            id: 2,
+            location: 'Country, Region',
+            price: '4,000 ₽ / hour',
+            title: 'Your Experience',
+            duration: 'Duration: from 60 min',
+            desc: 'Training and Riding Horses and Ponies',
+            likes: 8,
+            photo: balloon,
+        },
+    ];
+
     return (
         <main className="hotel-page block-center">
             <section className="description-block content">
@@ -112,7 +155,14 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <Slider/>
+            <Slider>
+                    <SwiperSlide><img className="responsive-image" src={slider1} alt="Slide-2" width="520" height="350" /></SwiperSlide>
+                    <SwiperSlide><img className="responsive-image" src={slider1} alt="Slide-2" width="520" height="350" /></SwiperSlide>
+                    <SwiperSlide><img className="responsive-image" src={slider1} alt="Slide-2" width="520" height="350" /></SwiperSlide>
+                    <SwiperSlide><img className="responsive-image" src={slider1} alt="Slide-2" width="520" height="350" /></SwiperSlide>
+                    <SwiperSlide><img className="responsive-image" src={slider1} alt="Slide-2" width="520" height="350" /></SwiperSlide>
+                    <SwiperSlide><img className="responsive-image" src={slider1} alt="Slide-2" width="520" height="350" /></SwiperSlide>
+            </Slider>
             <section className="reviews-block content">
                 <div className="reviews-block__title">
                     <h3 className="sub-headling">Отзывы:</h3>
@@ -189,6 +239,21 @@ const Home = () => {
                     pharetra, urna. Feugiat diam cras lorem sodales risus risus, enim. Tempor rhoncus at massa tempor 
                     egestas tristique etiam amet. 
                 </div>
+                <GoogleMap />
+            </section>
+            <section className="may-also-like-block content">
+                <div className="may-also-like-block__title">
+                    <h1 className="headline">Вам также может понравиться:</h1>
+                </div>
+                <div className="may-also-like-block__info paragraph">
+                    Quis exercitation deserunt aliquip Lorem non velit id ad incididunt eu. Eu labore eiusmod duis ad cupidatat occaecat 
+                    dolor anim eiusmod fugiat labore sunt eu.  
+                </div>
+                <Slider>
+                    <SwiperSlide>
+                        <LikeCards array={ likeCards } />
+                    </SwiperSlide>
+                </Slider>
             </section>
         </main>
     );

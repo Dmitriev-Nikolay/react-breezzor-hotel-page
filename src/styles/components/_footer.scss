@@ -1,0 +1,112 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: calc(var(--spacer) * 8) 0;
+    background: #f0f0f0;
+
+    &__navigation-links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: calc(var(--spacer) * 6) 0;
+        margin-bottom: calc(var(--spacer) * 16);
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: calc(var(--spacer) * -8);
+            right: 0;
+            width: 100%;
+            height: 1px;
+            border-radius: 50%;
+            background: var(--delimiter-gray);
+        }
+    }
+
+    &__copyright-block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: var(--spacer);
+}
+
+.title-link {
+    margin-bottom: calc(var(--spacer) * 3);
+}
+
+.copyright {
+    color: var(--text-third);
+}
+
+.agreements {
+    display: flex;
+    column-gap: calc(var(--spacer) * 4);
+
+    div {
+        cursor: pointer;
+
+        &:hover {
+            color: darken(#f9f9f9, 42%);
+        }
+    }
+}
+
+.language {
+    column-gap: var(--spacer);
+    cursor: pointer;
+
+    div {
+        position: relative;
+
+        &:hover::after {
+            content: "";
+            position: absolute;
+            bottom: calc(var(--spacer) * -0.6);
+            right: 0;
+            width: 100%;
+            height: 1px;
+            border-radius: 50%;
+            background: var(--blue);
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: calc(var(--spacer) * -0.6);
+            right: 0;
+            width: 100%;
+            height: 1px;
+            border-radius: 50%;
+            background: var(--text-second);
+        }
+    }
+}
+
+.social {
+    display: flex;
+    column-gap: calc(var(--spacer) * 2);
+
+    a {
+        transition: var(--transition-3);
+
+        &:hover {
+            transform: var(--scale-medium);
+        }
+
+        &:active {
+            transform: translate(1px, 1px);
+        }
+    }
+}

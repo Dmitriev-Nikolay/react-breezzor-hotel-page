@@ -9,6 +9,9 @@ import Navigation from './Navigation';
 import MayLikeBlock from './MayLikeBlock';
 import UserMenu from './UserMenu';
 import Breadcrumb from './Breadcrumb';
+import GoogleMap from './GoogleMap';
+import LikeCards from './LikeCards';
+import LikeCardItem from './LikeCardItem';
 
 export {
     Header,
@@ -22,4 +25,7 @@ export {
     MayLikeBlock,
     UserMenu,
     Breadcrumb,
+    GoogleMap,
+    LikeCards,
+    LikeCardItem,
 };

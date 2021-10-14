@@ -13,3 +13,41 @@
         background: var(--delimiter-gray);
     }
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--text);
+    background-color: var(--white);
+    width: calc(var(--spacer) * 7);
+    height: calc(var(--spacer) * 7);
+    border-radius: 50%;
+
+    &:after {
+        font-size: calc(var(--spacer) * 2);
+        font-weight: 700;
+    }
+}
+
+.swiper-slide-active {
+    img {
+        border-radius: 12px;
+        border: 1px solid #000000;
+    }
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+    &:after {
+        content: "prev";
+    }
+    left: 14px;
+    right: auto;
+}
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+    &:after {
+        content: "next";
+    }
+    right: 14px;
+    left: auto;
+}
