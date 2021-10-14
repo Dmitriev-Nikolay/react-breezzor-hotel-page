@@ -1,0 +1,17 @@
+.maps-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: calc(var(--spacer) * 16);
+    position: relative;
+
+    &__title {
+        margin-bottom: calc(var(--spacer) * 3);
+    }
+
+    &__info {
+        margin-bottom: calc(var(--spacer) * 6);
+        max-width: calc(var(--spacer) * 72);
+    }
+}

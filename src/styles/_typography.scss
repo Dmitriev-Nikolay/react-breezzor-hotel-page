@@ -1,0 +1,147 @@
+:root {
+    --headline-color: var(--text-second);
+    --sub-headling-color: var(--text);
+    --paragraphe-desc-color: var(--text-third);
+    --paragraphe-color: var(--text);
+    --data-color: var(--text-paragraphe);
+    --icons-text-color: var(--text-icon);
+
+    --text-button-color: var(--text-second);
+    --lineHeightMod: 8px;
+}
+
+.headline {
+    font-family: Montserrat, sans-serif;
+    font-size: calc(var(--spacer) * 5);
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(var(--spacer) * 7 + var(--lineHeightMod));
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: var(--headline-color);
+}
+
+.sub-headling {
+    font-family: Montserrat, sans-serif;
+    font-size: calc(var(--spacer) * 3);
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(var(--spacer) * 4 + var(--lineHeightMod));
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: var(--sub-headling-color);
+}
+
+.paragraph {
+    font-family: Roboto, sans-serif;
+    font-size: calc(var(--spacer) * 1.75);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(var(--spacer) * 2 + var(--lineHeightMod));
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: var(--paragraphe-color);
+}
+
+.paragraph-title {
+    font-family: Roboto, sans-serif;
+    font-size: calc(var(--spacer) * 1.75);
+    font-style: normal;
+    font-weight: 700;
+    line-height: calc(var(--spacer) * 2 + var(--lineHeightMod));
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: var(--sub-headling-color);
+}
+
+.data {
+    font-family: Roboto, sans-serif;
+    font-size: calc(var(--spacer) * 1.5);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(var(--spacer) * 1.5 + var(--lineHeightMod));
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: var(--data-color);
+}
+
+.icons-text {
+    font-family: Roboto, sans-serif;
+    font-size: calc(var(--spacer) * 1.5);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(var(--spacer) * 1.5 + var(--lineHeightMod));
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: var(--icons-text-color);
+}
+
+.paragraph-desc {
+    font-family: Roboto, sans-serif;
+    font-size: calc(var(--spacer) * 1.75);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(var(--spacer) * 2 + var(--lineHeightMod));
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: var(--paragraphe-desc-color);
+}
+
+.more-info-text {
+    font-family: Roboto, sans-serif;
+    font-size: calc(var(--spacer) * 1.75);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(var(--spacer) * 2 + var(--lineHeightMod));
+    letter-spacing: 0.2px;
+    text-align: right;
+    color: var(--blue);
+}
+
+.text-button {
+    font-family: Roboto, sans-serif;
+    font-size: calc(var(--spacer) * 1.75);
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(var(--spacer) * 3);
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--text-button-color);
+}
+
+.text-nav {
+    font-family: Roboto, sans-serif;
+    font-size: calc(var(--spacer) * 2);
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(var(--spacer) * 3);
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--paragraphe-color);
+}
+
+// a,
+// .link {
+//     color: var(--text-button-color);
+//     text-decoration: none;
+//     transition: color 0.15s linear 0.075s;
+//     font-family: Poppins, sans-serif;
+//     font-size: calc(var(--spacer) * 2);
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: calc(var(--spacer) * 2 + var(--lineHeightMod));
+//     letter-spacing: 0.2px;
+//     text-align: center;
+
+//     &:hover {
+//         color: var(--link-hover-color);
+//     }
+
+//     &--option {
+//         color: var(--link-hover-color);
+
+//         &:hover {
+//             color: var(--first-text);
+//         }
+//     }
+// }

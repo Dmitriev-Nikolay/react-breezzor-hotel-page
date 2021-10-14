@@ -1,0 +1,233 @@
+.header {
+    box-shadow: 0px 20px 30px -20px #1f1f1f1a;
+    margin-bottom: calc(var(--spacer) * 8);
+
+    &__logo {
+        cursor: pointer;
+        transition: var(--transition-3);
+
+        &:hover {
+            transform: var(--scale-small);
+        }
+
+        &:active {
+            transform: translate(1px, 1px);
+        }
+    }
+
+    &__inner {
+        background: url($path-image + "header-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        min-height: 616px;
+    }
+
+    &__top-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: calc(var(--spacer) * 3) calc(var(--spacer) * 9);
+    }
+
+    &__bottom-menu {
+        flex-direction: column;
+    }
+
+    &__bread-crumbs {
+        .bread-crumbs-item {
+            display: flex;
+            column-gap: var(--spacer);
+        }
+    }
+}
+
+.header-menu {
+    display: flex;
+    column-gap: calc(var(--spacer) * 3);
+
+    &__item {
+        cursor: pointer;
+        transition: var(--transition-3);
+
+        &:hover {
+            transform: var(--scale-small);
+        }
+
+        &:active {
+            transform: translate(1px, 1px);
+        }
+    }
+}
+
+.header-roads {
+    padding: calc(var(--spacer) * 3) 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    &__action-block {
+        display: flex;
+        column-gap: calc(var(--spacer) * 3);
+    }
+}
+
+// .panel-info
+// 	position: fixed
+// 	top: 0
+// 	left: 0
+// 	right: 0
+// 	width: 100%
+// 	justify-content: space-around
+// 	background: var(--secondary-blue)
+// 	transform: translate3d(0, 0, 0)
+// 	z-index: 3
+// 	transition: transform .2s linear
+// 	padding: 0 calc(var(--spacer) * 3)
+
+// 	&.hide
+// 		transform: translate3d(0, -100%, 0)
+// 	@media only screen and (max-width: 850px)
+// 		//display: none
+// 		//top: 80px
+// 		//background: var(--dark-background)
+
+// .header-menu
+// 	display: flex
+// 	align-items: center
+// 	justify-content: space-between
+// 	padding: calc(var(--spacer) * 4) 0
+// 	width: 100%
+// 	//position: fixed
+// 	//top: 24px
+// 	//transform: translateY(-50px)
+// 	//z-index: 3
+
+// 	&--panel
+// 		padding:
+// 			top: 0
+// 			bottom: 0
+
+// .text
+// 	flex-direction: column
+
+// .top-paragraph
+// 	flex-direction: column
+// 	margin-top: calc((var(--spacer) * 9))
+// 	max-width: 651px
+
+// .top-button
+// 	margin-top: calc(var(--spacer) * 8)
+// 	display: flex
+// 	gap: 13px
+
+// .sub-headling
+// 	margin-top: 7px
+
+// .header-img
+// 	margin-top: calc(var(--spacer) * 8)
+// 	padding: 40px 10px
+// 	filter: drop-shadow(0px 4px 13px rgba(0, 0, 0, 0.25))
+
+// .menu-burger
+// 	display: none
+
+// .logo
+// 	transition: filter .15s ease-in-out .075s
+// 	&:hover
+// 		filter: drop-shadow(0px 4px 15px #FFFFFF) saturate(300%)
+
+// 	&--panel
+// 		width: 120px
+
+// @media only screen and (max-width: 850px)
+// 	.header-menu
+// 		background-color: var(--secondary-light-blue)
+// 		width: 100%
+// 		position: fixed
+// 		top: 0
+// 		left: 0
+// 		z-index: 130
+// 		height: 80px
+// 		padding: 0 calc(var(--spacer) * 3)
+// 		//transform: translate3d(0, -100%, 0)
+
+// 	.top-paragraph
+// 		margin-top: calc((var(--spacer) * 10) + 45px)
+
+// 	.navigation
+// 		display: none
+
+// 	.menu-burger
+// 		display: block
+// 		position: relative
+// 		cursor: pointer
+// 		width: 30px
+// 		height: 30px
+
+// 		&::before
+// 			display: block
+// 			position: absolute
+// 			content: ''
+// 			width: 100%
+// 			height: 3px
+// 			background: var(--light-text)
+
+// 		&::after
+// 			display: block
+// 			position: absolute
+// 			content: ''
+// 			width: 40%
+// 			height: 3px
+// 			right: 0
+// 			top: 16px
+// 			background: var(--light-text)
+
+// 		&__line
+// 			display: block
+// 			width: 70%
+// 			height: 3px
+// 			background: var(--light-text)
+// 			position: absolute
+// 			top: 8px
+// 			right: 0
+
+// 	&.change
+// 		&::before
+// 			transform: rotate(45deg)
+// 			bottom: 11px
+
+// 		&::after
+// 			transform: rotate(-45deg)
+// 			width: 100%
+// 			//top: 10px
+
+// 		.menu-burger__line
+// 			transform: scale(0)
+
+// 	.header-menu
+// 		gap: 16px
+
+// 		&-mobile
+// 			transform: translate3d(0, 0, 0)
+// 			transition: transform .2s linear
+
+// 			&.hide
+// 				transform: translate3d(0, -100%, 0)
+
+// 		&--panel
+// 			display: none
+
+// 	.header-logo
+// 		flex-grow: 1
+// 		display: flex
+
+// @media only screen and (max-width: 520px)
+// 	.logo
+// 		width: 100%
+// 		height: auto
+
+// @media only screen and (max-width: 494px)
+// 	.top-button
+// 		flex-direction: column

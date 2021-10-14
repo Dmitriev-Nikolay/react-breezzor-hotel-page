@@ -1,0 +1,17 @@
+.content {
+    max-width: var(--max-width-actual);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 calc(var(--spacer) * 9);
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.block-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

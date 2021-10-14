@@ -1,0 +1,15 @@
+.hotel-slider {
+    margin-bottom: calc(var(--spacer) * 16);
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: calc(var(--spacer) * -8);
+        right: 0;
+        width: 100%;
+        height: 1px;
+        border-radius: 50%;
+        background: var(--delimiter-gray);
+    }
+}
