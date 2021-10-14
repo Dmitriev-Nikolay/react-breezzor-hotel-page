@@ -4,10 +4,7 @@ import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
-// import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-
-import vector from '../assets/svg/vector.svg';
 
 const Breadcrumb = () => {
     function handleClick(event) {
@@ -16,16 +13,16 @@ const Breadcrumb = () => {
     };
 
     const breadcrumbs = [
-        <Link 
+        <Link
             className="bread-crumbs-item block-center"
-            underline="hover" 
-            key="1" 
-            color="inherit" 
-            href="/" 
+            underline="hover"
+            key="1"
+            color="inherit"
+            href="/"
             onClick={handleClick}
         >
             Главная
-            <ArrowForwardIosIcon sx={{ mr: -1, fontSize: 12 }} />
+            <ArrowForwardIosIcon sx={ { mr: -1, fontSize: 12 } } />
         </Link>,
         <Link
             className="bread-crumbs-item block-center"
@@ -36,9 +33,9 @@ const Breadcrumb = () => {
             onClick={handleClick}
         >
             Breezzor Pass
-            <ArrowForwardIosIcon sx={{ mr: -1, fontSize: 12 }} />
+            <ArrowForwardIosIcon sx={ { mr: -1, fontSize: 12 } } />
         </Link>,
-        <Link 
+        <Link
             className="bread-crumbs-item block-center"
             underline="hover"
             key="4"
@@ -47,7 +44,7 @@ const Breadcrumb = () => {
             onClick={handleClick}
         >
             Испания
-            <ArrowForwardIosIcon sx={{ mr: -1, fontSize: 12 }} />
+            <ArrowForwardIosIcon sx={ { mr: -1, fontSize: 12 } } />
         </Link>,
         <Typography key="5" color="text.primary">
             Breezzor Pass by Hilton
@@ -55,7 +52,7 @@ const Breadcrumb = () => {
     ];
 
     return (
-        <Stack className="header__bread-crumbs" spacing={2}>
+        <Stack className="header__bread-crumbs" spacing={ 2 }>
             <Breadcrumbs separator="" aria-label="breadcrumb">
                 { breadcrumbs }
             </Breadcrumbs>

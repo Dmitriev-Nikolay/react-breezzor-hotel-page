@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Slider, GoogleMap, LikeCards } from '../../components';
+import { Slider, GoogleMap, LikeCardItem } from '../../components';
 
 import { SwiperSlide } from 'swiper/react';
 
@@ -30,7 +30,6 @@ import fishing from '../../assets/img/like-card-2.png';
 import balloon from '../../assets/img/like-card-3.png';
 
 const Home = () => {
-
     const likeCards = [
         {
             id: 0,
@@ -41,6 +40,7 @@ const Home = () => {
             desc: 'Training and Riding Horses and Ponies',
             likes: 8,
             photo: scuba,
+            offer: true,
         },
         {
             id: 1,
@@ -51,6 +51,7 @@ const Home = () => {
             desc: 'Training and Riding Horses and Ponies',
             likes: 8,
             photo: fishing,
+            offer: false,
         },
         {
             id: 2,
@@ -61,6 +62,7 @@ const Home = () => {
             desc: 'Training and Riding Horses and Ponies',
             likes: 8,
             photo: balloon,
+            offer: true,
         },
     ];
 
@@ -155,14 +157,13 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <Slider>
-                    <SwiperSlide><img className="responsive-image" src={slider1} alt="Slide-2" width="520" height="350" /></SwiperSlide>
-                    <SwiperSlide><img className="responsive-image" src={slider1} alt="Slide-2" width="520" height="350" /></SwiperSlide>
-                    <SwiperSlide><img className="responsive-image" src={slider1} alt="Slide-2" width="520" height="350" /></SwiperSlide>
-                    <SwiperSlide><img className="responsive-image" src={slider1} alt="Slide-2" width="520" height="350" /></SwiperSlide>
-                    <SwiperSlide><img className="responsive-image" src={slider1} alt="Slide-2" width="520" height="350" /></SwiperSlide>
-                    <SwiperSlide><img className="responsive-image" src={slider1} alt="Slide-2" width="520" height="350" /></SwiperSlide>
-            </Slider>
+            <section className="hotel-slider">
+                <Slider>
+                    <SwiperSlide><img className="hotel-img responsive-image" src={slider1} alt="Slide-2" width="520" height="350" /></SwiperSlide>
+                    <SwiperSlide><img className="hotel-img responsive-image" src={slider1} alt="Slide-2" width="520" height="350" /></SwiperSlide>
+                    <SwiperSlide><img className="hotel-img responsive-image" src={slider1} alt="Slide-2" width="520" height="350" /></SwiperSlide>
+                </Slider>
+            </section>
             <section className="reviews-block content">
                 <div className="reviews-block__title">
                     <h3 className="sub-headling">Отзывы:</h3>
@@ -249,11 +250,29 @@ const Home = () => {
                     Quis exercitation deserunt aliquip Lorem non velit id ad incididunt eu. Eu labore eiusmod duis ad cupidatat occaecat 
                     dolor anim eiusmod fugiat labore sunt eu.  
                 </div>
-                <Slider>
-                    <SwiperSlide>
-                        <LikeCards array={ likeCards } />
-                    </SwiperSlide>
-                </Slider>
+                <div className="cards-slider">
+                    <Slider>
+                        {
+                            likeCards.map((card) => {
+                                return (
+                                    <SwiperSlide key={ card.id }>
+                                        <LikeCardItem
+                                            location={ card.location }
+                                            price={ card.price }
+                                            title={ card.title }
+                                            duration={ card.duration }
+                                            desc={ card.desc }
+                                            likes={ card.likes }
+                                            photo={ card.photo }
+                                            offer={ card.offer }
+                                        />
+                                    </SwiperSlide>
+                                )
+                            })
+                        }
+                    </Slider> 
+                </div>
+                
             </section>
         </main>
     );

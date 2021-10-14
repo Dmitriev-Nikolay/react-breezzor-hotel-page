@@ -1,16 +1,44 @@
 .hotel-slider {
-    margin-bottom: calc(var(--spacer) * 16);
+    width: 100%;
     position: relative;
+    margin-bottom: calc(var(--spacer) * 16);
 
     &::after {
         content: "";
         position: absolute;
         bottom: calc(var(--spacer) * -8);
-        right: 0;
-        width: 100%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: var(--max-width-actual);
         height: 1px;
         border-radius: 50%;
         background: var(--delimiter-gray);
+    }
+}
+
+.cards-slider {
+    @extend .hotel-slider;
+    margin: 0;
+
+    &::after {
+        content: none;
+    }
+
+    .swiper-button-prev,
+    .swiper-container-rtl .swiper-button-next {
+        &:after {
+            content: "prev";
+        }
+        left: 0;
+        right: auto;
+    }
+    .swiper-button-next,
+    .swiper-container-rtl .swiper-button-prev {
+        &:after {
+            content: "next";
+        }
+        right: 0;
+        left: auto;
     }
 }
 
@@ -21,6 +49,8 @@
     width: calc(var(--spacer) * 7);
     height: calc(var(--spacer) * 7);
     border-radius: 50%;
+    z-index: 50;
+    box-shadow: 0px 4px 4px 0px #00000040;
 
     &:after {
         font-size: calc(var(--spacer) * 2);
@@ -29,7 +59,7 @@
 }
 
 .swiper-slide-active {
-    img {
+    .hotel-img {
         border-radius: 12px;
         border: 1px solid #000000;
     }
@@ -50,4 +80,8 @@
     }
     right: 14px;
     left: auto;
+}
+
+.swiper-container {
+    padding: 10px;
 }

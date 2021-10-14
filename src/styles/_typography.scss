@@ -33,6 +33,17 @@
     color: var(--sub-headling-color);
 }
 
+.card-headling {
+    font-family: Montserrat, sans-serif;
+    font-size: calc(var(--spacer) * 2);
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(var(--spacer) * 2 + var(--lineHeightMod));
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--headline-color);
+}
+
 .links-headline {
     font-family: Montserrat, sans-serif;
     font-size: calc(var(--spacer) * 2.5);
@@ -142,6 +153,17 @@
     letter-spacing: 0em;
     text-align: center;
     color: var(--paragraphe-color);
+}
+
+.likes-count {
+    font-family: Roboto, sans-serif;
+    font-size: calc(var(--spacer) * 2.5);
+    font-style: normal;
+    font-weight: 300;
+    line-height: calc(var(--spacer) * 3 + var(--lineHeightMod));
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--headline-color);
 }
 
 .link {

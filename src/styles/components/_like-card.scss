@@ -1,6 +1,80 @@
 .like-card {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 1fr);;
+    grid-template-rows: repeat(2, 1fr);
     gap: calc(var(--spacer) * 6) 0;
+    box-shadow: 0px 2px 12px 0px #1f1f1f26;
+    border-radius: var(--spacer);
+
+    &__photo-block {
+        position: relative;
+    }
+
+    &__info-block {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding: calc(var(--spacer) * 2) calc(var(--spacer) * 3) calc(var(--spacer) * 5);
+    }
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    margin-bottom: calc(var(--spacer) * 2);
+}
+
+.card-price {
+    margin-bottom: calc(var(--spacer) * 1);
+}
+
+.country-block {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    column-gap: calc(var(--spacer) * 2);
+}
+
+.location-country {
+    color: var(--white);
+}
+
+.favorite-icon {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    cursor: pointer;
+    transition: var(--transition-3);
+
+    &:hover {
+        transform: var(--scale-small);
+    }
+}
+
+.card-offer {
+    position: absolute;
+    top: 16px;
+    left: 24px;
+    background: var(--dark-red);
+    height: 32px;
+    width: 138px;
+    left: 24px;
+    top: 16px;
+    border-radius: 18px;
+    padding: 4px, 24px, 4px, 24px;
+    user-select: none;
+
+    h5 {
+        color: var(--white);
+    }
+}
+
+.likes-block {
+    position: absolute;
+    top: 56px;
+    right: 24px;
+    column-gap: var(--spacer);
 }

@@ -1,5 +1,4 @@
 $path-image: "/assets/img/";
-// $path-image-template: $path-image + 'template/';
 
 :root {
 	--text: #434343;
@@ -7,6 +6,7 @@ $path-image: "/assets/img/";
 	--text-third: #1f1f1f;
 	--text-paragraphe: #8c8c8c;
 	--text-icon: #595959;
+	--dark-red: #d4302a;
 
 	--delimiter-gray: #d9d9d9;
 	--blue: #0468ff;
@@ -15,13 +15,6 @@ $path-image: "/assets/img/";
 	--scale-small: scale(1.05);
 	--scale-medium: scale(1.1);
 	--transition-3: 0.3s;
-	// --border-card: #DEDEDE;
-	// --border-input: #D0D0D0;
-	// --light-text: #FFFFFF;
-	// --first-text: #000000
-	// --secondary-blue: #112D57;
-	// --secondary-light-blue: #03D6F3;
-	// --primary: #30D7BA;
 
 	--max-width: 1136px;
 	--max-width-actual: calc(var(--max-width) + ((var(--spacer) * 9) * 2));
