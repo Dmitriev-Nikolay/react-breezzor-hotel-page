@@ -3,13 +3,15 @@ import Footer from './Footer';
 import Router from './Router';
 import Slider from './Slider';
 import Reviews from './Reviews';
-import HotelDesc from './HotelDesc';
 import Navigation from './Navigation';
 import MayLikeBlock from './MayLikeBlock';
 import UserMenu from './UserMenu';
 import Breadcrumb from './Breadcrumb';
 import GoogleMap from './GoogleMap';
 import LikeCardItem from './LikeCardItem';
+import ImportantInformation from './ImportantInformation';
+import HotelDescription from './HotelDescription';
+import MapBlock from './MapBlock';
 
 export {
     Header,
@@ -17,11 +19,13 @@ export {
     Router,
     Slider,
     Reviews,
-    HotelDesc,
     Navigation,
     MayLikeBlock,
     UserMenu,
     Breadcrumb,
     GoogleMap,
     LikeCardItem,
+    ImportantInformation,
+    HotelDescription,
+    MapBlock,
 };

@@ -1,5 +1,5 @@
 .navigation {
-    column-gap: calc(var(--spacer) * 8);
+    column-gap: calc(var(--spacer) * 3);
     padding: calc(var(--spacer) * 5) 0;
 
     &__item {
@@ -7,8 +7,9 @@
         text-decoration: none;
         column-gap: var(--spacer);
         transition: var(--transition-3);
-        padding: var(--spacer) calc(var(--spacer) * 3);
+        padding: 0 var(--spacer);
         border-radius: 30px;
+        padding: 8px 16px;
 
         &:visited {
             color: black;
@@ -26,8 +27,8 @@
             content: "";
             position: absolute;
             top: 0;
-            right: -32px;
-            height: 100%;
+            right: -12px;
+            height: 80%;
             width: 1px;
             border-radius: 50%;
             background: var(--delimiter-gray);
@@ -44,7 +45,6 @@
 
             svg {
                 stroke: var(--blue);
-                // fill: var(--blue);
             }
         }
     }

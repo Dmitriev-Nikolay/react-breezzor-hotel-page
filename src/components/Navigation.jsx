@@ -63,11 +63,11 @@ const Navigation = () => {
                         <NavLink 
                             className="navigation__item block-center text-nav" 
                             activeClassName="active" 
-                            to={navItem.link} 
-                            key={navItem.id}
+                            to={ navItem.link } 
+                            key={ navItem.id }
                         >
                             <navItem.imgSrc />
-                            <div>{navItem.name}</div>
+                            <div>{ navItem.name }</div>
                         </NavLink >
                     )
                 })

@@ -2,8 +2,8 @@ import React from 'react';
 
 const Restaurant = () => {
     return (
-        <div>
-            <h1>Restaurant</h1>
+        <div className="content block-center">
+            <h1 className="headline">Ресторан</h1>
         </div>
     );
 };

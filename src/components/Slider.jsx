@@ -11,20 +11,18 @@ SwiperCore.use([Navigation]);
 const Slider = React.memo(({ children }) => {
 
     return (
-        <div className="slider">
-            <Swiper
-                slidesPerView={ 3 }
-                spaceBetween={ 20 }
-                centeredSlides={ true }
-                loop={ true }
-                navigation={{
-                    clickable: true
-                }}
-                className="mySwiper"
-            >
-                { children }
-            </Swiper>
-        </div >
+        <Swiper
+            slidesPerView={ 3 }
+            spaceBetween={ 20 }
+            centeredSlides={ true }
+            loop={ true }
+            navigation={{
+                clickable: true
+            }}
+            className="mySwiper"
+        >
+            { children }
+        </Swiper>
     );
 });
 

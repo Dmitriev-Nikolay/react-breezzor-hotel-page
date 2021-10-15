@@ -21,7 +21,6 @@ const LikeCardItem = ({ location, price, title, duration, desc, likes, photo, of
                         <h5 className="text-nav">BEST OFFER</h5>
                     </div>
                 }
-                
             </section>
             <section className="like-card__info-block">
                 <h4 className="card-title card-headling">{ title }</h4>

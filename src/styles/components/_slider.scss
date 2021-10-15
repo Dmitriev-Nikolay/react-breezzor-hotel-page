@@ -1,7 +1,11 @@
 .hotel-slider {
     width: 100%;
-    position: relative;
     margin-bottom: calc(var(--spacer) * 16);
+    margin-right: 24px;
+    margin-left: 24px;
+    max-width: 2500px;
+    position: relative;
+    overflow: hidden;
 
     &::after {
         content: "";
@@ -30,6 +34,7 @@
             content: "prev";
         }
         left: 0;
+        top: 42%;
         right: auto;
     }
     .swiper-button-next,
@@ -38,6 +43,7 @@
             content: "next";
         }
         right: 0;
+        top: 42%;
         left: auto;
     }
 }
@@ -73,6 +79,7 @@
     left: 14px;
     right: auto;
 }
+
 .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
     &:after {
@@ -84,4 +91,10 @@
 
 .swiper-container {
     padding: 10px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

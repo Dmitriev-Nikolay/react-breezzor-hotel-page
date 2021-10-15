@@ -46,7 +46,7 @@
 
 .links-headline {
     font-family: Montserrat, sans-serif;
-    font-size: calc(var(--spacer) * 2.5);
+    font-size: calc(var(--spacer) * 3);
     font-style: normal;
     font-weight: 600;
     line-height: calc(var(--spacer) * 3 + var(--lineHeightMod));
@@ -57,7 +57,7 @@
 
 .paragraph {
     font-family: Roboto, sans-serif;
-    font-size: calc(var(--spacer) * 1.75);
+    font-size: calc(var(--spacer) * 2);
     font-style: normal;
     font-weight: 400;
     line-height: calc(var(--spacer) * 2 + var(--lineHeightMod));
@@ -68,7 +68,7 @@
 
 .paragraph-title {
     font-family: Roboto, sans-serif;
-    font-size: calc(var(--spacer) * 1.75);
+    font-size: calc(var(--spacer) * 2);
     font-style: normal;
     font-weight: 700;
     line-height: calc(var(--spacer) * 2 + var(--lineHeightMod));
@@ -79,7 +79,7 @@
 
 .agreements-text {
     font-family: Roboto, sans-serif;
-    font-size: calc(var(--spacer) * 1.25);
+    font-size: calc(var(--spacer) * 1);
     font-style: normal;
     font-weight: 400;
     line-height: calc(var(--spacer) * 1 + var(--lineHeightMod));
@@ -91,10 +91,10 @@
 
 .data {
     font-family: Roboto, sans-serif;
-    font-size: calc(var(--spacer) * 1.5);
+    font-size: calc(var(--spacer) * 2);
     font-style: normal;
     font-weight: 400;
-    line-height: calc(var(--spacer) * 1.5 + var(--lineHeightMod));
+    line-height: calc(var(--spacer) * 2 + var(--lineHeightMod));
     letter-spacing: 0.2px;
     text-align: left;
     color: var(--data-color);
@@ -105,7 +105,7 @@
     font-size: calc(var(--spacer) * 1.5);
     font-style: normal;
     font-weight: 400;
-    line-height: calc(var(--spacer) * 1.5 + var(--lineHeightMod));
+    line-height: calc(var(--spacer) * 2 + var(--lineHeightMod));
     letter-spacing: 0.2px;
     text-align: center;
     color: var(--icons-text-color);
@@ -113,7 +113,7 @@
 
 .paragraph-desc {
     font-family: Roboto, sans-serif;
-    font-size: calc(var(--spacer) * 1.75);
+    font-size: calc(var(--spacer) * 2);
     font-style: normal;
     font-weight: 400;
     line-height: calc(var(--spacer) * 2 + var(--lineHeightMod));
@@ -124,7 +124,7 @@
 
 .more-info-text {
     font-family: Roboto, sans-serif;
-    font-size: calc(var(--spacer) * 1.75);
+    font-size: calc(var(--spacer) * 2);
     font-style: normal;
     font-weight: 400;
     line-height: calc(var(--spacer) * 2 + var(--lineHeightMod));
@@ -135,7 +135,7 @@
 
 .text-button {
     font-family: Roboto, sans-serif;
-    font-size: calc(var(--spacer) * 1.75);
+    font-size: calc(var(--spacer) * 2);
     font-style: normal;
     font-weight: 500;
     line-height: calc(var(--spacer) * 3);
@@ -157,7 +157,7 @@
 
 .likes-count {
     font-family: Roboto, sans-serif;
-    font-size: calc(var(--spacer) * 2.5);
+    font-size: calc(var(--spacer) * 3);
     font-style: normal;
     font-weight: 300;
     line-height: calc(var(--spacer) * 3 + var(--lineHeightMod));
@@ -168,7 +168,7 @@
 
 .link {
     font-family: Roboto, sans-serif;
-    font-size: calc(var(--spacer) * 1.75);
+    font-size: calc(var(--spacer) * 2);
     font-style: normal;
     font-weight: 400;
     line-height: calc(var(--spacer) * 2 + var(--lineHeightMod));

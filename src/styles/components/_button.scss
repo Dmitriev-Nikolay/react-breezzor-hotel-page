@@ -9,7 +9,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    max-width: 176px;
+    max-width: 180px;
     height: calc((var(--spacer) * 5));
     color: var(--button-font-color);
     background: var(--button-background-color);
@@ -18,7 +18,7 @@
     border: 1px solid var(--button-border-color);
 
     font-family: Roboto, sans-serif;
-    font-size: calc((var(--spacer) * 1.75));
+    font-size: calc((var(--spacer) * 2));
     font-style: normal;
     font-weight: 500;
     line-height: calc((var(--spacer) * 3));
@@ -38,7 +38,7 @@
 
     &--reviews {
         transition: var(--transition-3);
-        padding: calc(var(--spacer)) calc(var(--spacer) * 4);
+        padding: calc(var(--spacer)) calc(var(--spacer) * 3);
 
         &:hover {
             transform: none;
@@ -60,10 +60,10 @@
         cursor: pointer;
 
         font-family: Roboto, sans-serif;
-        font-size: calc((var(--spacer) * 1.5));
+        font-size: calc((var(--spacer) * 2));
         font-style: normal;
         font-weight: 400;
-        line-height: calc((var(--spacer) * 2.5));
+        line-height: calc((var(--spacer) * 3));
         letter-spacing: 0.2px;
         text-align: left;
 
