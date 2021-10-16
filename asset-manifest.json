@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/react-breezzor-hotel-page/static/css/main.03c87813.chunk.css",
+    "main.js": "/react-breezzor-hotel-page/static/js/main.8d2bd31c.chunk.js",
+    "main.js.map": "/react-breezzor-hotel-page/static/js/main.8d2bd31c.chunk.js.map",
+    "runtime-main.js": "/react-breezzor-hotel-page/static/js/runtime-main.10aff59b.js",
+    "runtime-main.js.map": "/react-breezzor-hotel-page/static/js/runtime-main.10aff59b.js.map",
+    "static/css/2.ee779822.chunk.css": "/react-breezzor-hotel-page/static/css/2.ee779822.chunk.css",
+    "static/js/2.eb891221.chunk.js": "/react-breezzor-hotel-page/static/js/2.eb891221.chunk.js",
+    "static/js/2.eb891221.chunk.js.map": "/react-breezzor-hotel-page/static/js/2.eb891221.chunk.js.map",
+    "static/js/3.62772955.chunk.js": "/react-breezzor-hotel-page/static/js/3.62772955.chunk.js",
+    "static/js/3.62772955.chunk.js.map": "/react-breezzor-hotel-page/static/js/3.62772955.chunk.js.map",
+    "index.html": "/react-breezzor-hotel-page/index.html",
+    "static/css/2.ee779822.chunk.css.map": "/react-breezzor-hotel-page/static/css/2.ee779822.chunk.css.map",
+    "static/css/main.03c87813.chunk.css.map": "/react-breezzor-hotel-page/static/css/main.03c87813.chunk.css.map",
+    "static/js/2.eb891221.chunk.js.LICENSE.txt": "/react-breezzor-hotel-page/static/js/2.eb891221.chunk.js.LICENSE.txt",
+    "static/media/add.891105f2.svg": "/react-breezzor-hotel-page/static/media/add.891105f2.svg",
+    "static/media/events.ac61116b.svg": "/react-breezzor-hotel-page/static/media/events.ac61116b.svg",
+    "static/media/hotel.50b65161.svg": "/react-breezzor-hotel-page/static/media/hotel.50b65161.svg",
+    "static/media/like-card-1.6e726886.png": "/react-breezzor-hotel-page/static/media/like-card-1.6e726886.png",
+    "static/media/like-card-2.c7f33975.png": "/react-breezzor-hotel-page/static/media/like-card-2.c7f33975.png",
+    "static/media/like-card-3.db8cb37a.png": "/react-breezzor-hotel-page/static/media/like-card-3.db8cb37a.png",
+    "static/media/location.83b6c94f.svg": "/react-breezzor-hotel-page/static/media/location.83b6c94f.svg",
+    "static/media/pass.f3a323de.svg": "/react-breezzor-hotel-page/static/media/pass.f3a323de.svg",
+    "static/media/restaurant.6b310584.svg": "/react-breezzor-hotel-page/static/media/restaurant.6b310584.svg",
+    "static/media/services.c0f1d05b.svg": "/react-breezzor-hotel-page/static/media/services.c0f1d05b.svg",
+    "static/media/slider-0.b1b0cf6e.png": "/react-breezzor-hotel-page/static/media/slider-0.b1b0cf6e.png",
+    "static/media/union.957ca1a6.svg": "/react-breezzor-hotel-page/static/media/union.957ca1a6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10aff59b.js",
+    "static/css/2.ee779822.chunk.css",
+    "static/js/2.eb891221.chunk.js",
+    "static/css/main.03c87813.chunk.css",
+    "static/js/main.8d2bd31c.chunk.js"
+  ]
+}
