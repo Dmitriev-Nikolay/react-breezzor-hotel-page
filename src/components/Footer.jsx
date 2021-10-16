@@ -6,6 +6,9 @@ import instagram from '../assets/img/instagram.png';
 import twitter from '../assets/img/twitter.png';
 
 const Footer = () => {
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
     
     return (
         <footer className="footer">
@@ -13,36 +16,36 @@ const Footer = () => {
                 <div className="about">
                     <h4 className="title-link links-headline">О компании</h4>
                     <div className="links">
-                        <a href="/#" className="link">Кто мы</a>
-                        <a href="/#" className="link">Что мы делаем</a>
-                        <a href="/#" className="link">Команда</a>
+                        <a href="#/" onClick={ scrollToTop } className="link">Кто мы</a>
+                        <a href="#/" onClick={ scrollToTop } className="link">Что мы делаем</a>
+                        <a href="#/" onClick={ scrollToTop } className="link">Команда</a>
                     </div>
                 </div>
                 <div className="for-business">
                     <h4 className="title-link links-headline">Для бизнеса</h4>
                     <div className="links">
-                        <a href="/#" className="link">Добавить пляжи</a>
-                        <a href="/#" className="link">Добавить услуги</a>
+                        <a href="#/" onClick={ scrollToTop } className="link">Добавить пляжи</a>
+                        <a href="#/" onClick={ scrollToTop } className="link">Добавить услуги</a>
                     </div>
                 </div>
                 <div className="contacts">
                     <h4 className="title-link links-headline">Контакты</h4>
                     <div className="links">
-                        <a href="/#" className="link">Связаться с нами</a>
-                        <a href="/#" className="link">Публичная оферта для поставщиков</a>
+                        <a href="#/" onClick={ scrollToTop } className="link">Связаться с нами</a>
+                        <a href="#/" onClick={ scrollToTop } className="link">Публичная оферта для поставщиков</a>
                     </div>
                 </div>
                 <div className="career">
                     <h4 className="title-link links-headline">Карьера</h4>
                     <div className="links">
-                        <a href="/#" className="link">Присоединиться к команде</a>
-                        <a href="/#" className="link">Список вакансий</a>
+                        <a href="#/" onClick={ scrollToTop } className="link">Присоединиться к команде</a>
+                        <a href="#/" onClick={ scrollToTop } className="link">Список вакансий</a>
                     </div>
                 </div>
                 <div className="press-center">
                     <h4 className="title-link links-headline">Пресс-центр</h4>
                     <div className="links">
-                        <a href="/#" className="link">Подписка на пресс-релизы</a>
+                        <a href="#/" onClick={ scrollToTop } className="link">Подписка на пресс-релизы</a>
                     </div>
                 </div>
             </section>
