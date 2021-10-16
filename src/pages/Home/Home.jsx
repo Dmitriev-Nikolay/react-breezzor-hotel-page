@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { HotelDescription, Slider, Reviews, ImportantInformation, MapBlock, MayLikeBlock } from '../../components';
+import { HotelDescription, Reviews, Slider, ImportantInformation, MapBlock, MayLikeBlock } from '../../components';
 
 import { SwiperSlide } from 'swiper/react';
 

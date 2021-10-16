@@ -54,7 +54,7 @@ const Footer = () => {
                     <div className="agreements-text">Политика конфиденциальности</div>
                     <div className="agreements-text">Пользовательское соглашение</div>
                 </div>
-                <div className="language block-center">
+                <div className="language text-button block-center">
                     <img src={ languageIcon } alt="Icon language" />
                     <div>Русский (RU)</div>
                 </div>

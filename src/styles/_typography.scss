@@ -6,6 +6,7 @@
     --data-color: var(--text-paragraphe);
     --icons-text-color: var(--text-icon);
     --link-color: var(--text-second);
+    --text-blue: var(--blue);
 
     --text-button-color: var(--text-second);
     --lineHeightMod: 8px;
@@ -164,6 +165,17 @@
     letter-spacing: 0em;
     text-align: left;
     color: var(--headline-color);
+}
+
+.text-blue {
+    font-family: Roboto, sans-serif;
+    font-size: calc(var(--spacer) * 2);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(var(--spacer) * 2 + var(--lineHeightMod));
+    letter-spacing: 0em;
+    text-align: right;
+    color: var(--text-blue);
 }
 
 .link {

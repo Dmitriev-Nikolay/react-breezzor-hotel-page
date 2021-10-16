@@ -25,4 +25,8 @@ $path-image: "/assets/img/";
 	@media screen and (max-width: 995px) {
 		--spacer: 6px;
 	}
+
+	@media screen and (max-width: 769px) {
+		--spacer: 4px;
+	}
 }

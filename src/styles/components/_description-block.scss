@@ -50,12 +50,17 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 995px) {
     .general-desc {
-
         &__icons-info {
             grid-template-columns: repeat(6, 1fr);
+        }
+    }
 
+    .item-icon {
+        img {
+            width: calc(var(--spacer) * 7);
+            height: calc(var(--spacer) * 7);
         }
     }
 }

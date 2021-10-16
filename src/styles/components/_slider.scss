@@ -1,23 +1,11 @@
 .hotel-slider {
     width: 100%;
     margin-bottom: calc(var(--spacer) * 16);
-    margin-right: 24px;
+    max-width: 200px;
     margin-left: 24px;
-    max-width: 2500px;
+    margin-right: 24px;
     position: relative;
     overflow: hidden;
-
-    &::after {
-        content: "";
-        position: absolute;
-        bottom: calc(var(--spacer) * -8);
-        left: 50%;
-        transform: translate(-50%, 0);
-        width: var(--max-width-actual);
-        height: 1px;
-        border-radius: 50%;
-        background: var(--delimiter-gray);
-    }
 }
 
 .cards-slider {

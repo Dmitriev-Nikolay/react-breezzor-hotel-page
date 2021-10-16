@@ -37,59 +37,59 @@ const HotelDescription = () => {
                 </div>
                 <div className="general-desc__icons-info">
                     <div className="item-icon block-center">
-                        <img src={ infrastructureIcon0 } alt="Icon" />
+                        <img className="responsive-image" src={ infrastructureIcon0 } alt="Icon" width="64" height="64" />
                         <p className="icons-text">Шезлонги</p>
                     </div>
                     <div className="item-icon block-center">
-                        <img src={ infrastructureIcon1 } alt="Icon" />
+                        <img className="responsive-image" src={ infrastructureIcon1 } alt="Icon" width="64" height="64" />
                         <p className="icons-text">Зонтики</p>
                     </div>
                     <div className="item-icon block-center">
-                        <img src={ infrastructureIcon2 } alt="Icon" />
+                        <img className="responsive-image" src={ infrastructureIcon2 } alt="Icon" width="64" height="64" />
                         <p className="icons-text">Ресторан</p>
                     </div>
                     <div className="item-icon block-center">
-                        <img src={ infrastructureIcon3 } alt="Icon" />
+                        <img className="responsive-image" src={ infrastructureIcon3 } alt="Icon" width="64" height="64" />
                         <p className="icons-text">Бар</p>
                     </div>
                     <div className="item-icon block-center">
-                        <img src={ infrastructureIcon4 } alt="Icon" />
+                        <img className="responsive-image" src={ infrastructureIcon4 } alt="Icon" width="64" height="64" />
                         <p className="icons-text">Бассейн</p>
                     </div>
                     <div className="item-icon block-center">
-                        <img src={ infrastructureIcon5 } alt="Icon" />
+                        <img className="responsive-image" src={ infrastructureIcon5 } alt="Icon" width="64" height="64" />
                         <p className="icons-text">Cпасатели</p>
                     </div>
                     <div className="item-icon block-center">
-                        <img src={ infrastructureIcon6 } alt="Icon" />
+                        <img className="responsive-image" src={ infrastructureIcon6 } alt="Icon" width="64" height="64" />
                         <p className="icons-text">Буйки</p>
                     </div>
                     <div className="item-icon block-center">
-                        <img src={ infrastructureIcon8 } alt="Icon" />
+                        <img className="responsive-image" src={ infrastructureIcon8 } alt="Icon" width="64" height="64" />
                         <p className="icons-text">Wi-Fi</p>
                     </div>
                     <div className="item-icon block-center">
-                        <img src={ infrastructureIcon9 } alt="Icon" />
+                        <img className="responsive-image" src={ infrastructureIcon9 } alt="Icon" width="64" height="64" />
                         <p className="icons-text">Душ</p>
                     </div>
                     <div className="item-icon block-center">
-                        <img src={ infrastructureIcon7 } alt="Icon" />
+                        <img className="responsive-image" src={ infrastructureIcon7 } alt="Icon" width="64" height="64" />
                         <p className="icons-text">Детская <br/>площадка</p>
                     </div>
                     <div className="item-icon block-center">
-                        <img src={ infrastructureIcon10 } alt="Icon" />
+                        <img className="responsive-image" src={ infrastructureIcon10 } alt="Icon" width="64" height="64" />
                         <p className="icons-text">Доступность</p>
                     </div>
                     <div className="item-icon block-center">
-                        <img src={ infrastructureIcon11 } alt="Icon" />
+                        <img className="responsive-image" src={ infrastructureIcon11 } alt="Icon" width="64" height="64" />
                         <p className="icons-text">Туалет</p>
                     </div>
                     <div className="item-icon block-center">
-                        <img src={ infrastructureIcon12 } alt="Icon" />
+                        <img className="responsive-image" src={ infrastructureIcon12 } alt="Icon" width="64" height="64" />
                         <p className="icons-text">СПА</p>
                     </div>
                     <div className="item-icon block-center">
-                        <img src={ infrastructureIcon13 } alt="Icon" />
+                        <img className="responsive-image" src={ infrastructureIcon13 } alt="Icon" width="64" height="64" />
                         <p className="icons-text">Джакузи</p>
                     </div>
                 </div>
