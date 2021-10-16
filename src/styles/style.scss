@@ -1,8 +1,9 @@
-@import "./fonts";
-@import "./reset";
-@import "./variables";
-@import "./helpers";
-@import "./typography";
+@import "fonts";
+@import "reset";
+@import "variables";
+@import "helpers";
+@import "typography";
+@import "components/all";
 
 * {
     box-sizing: border-box;
@@ -33,4 +34,3 @@ html {
     overflow: hidden;
 }
 
-@import "components/all";
