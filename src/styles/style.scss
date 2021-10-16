@@ -1,9 +1,23 @@
-@import "fonts";
 @import "reset";
+@import "fonts";
 @import "variables";
 @import "helpers";
 @import "typography";
 @import "components/all";
+
+// @import "components/header";
+// @import "components/footer";
+// @import "components/bread-crumbs";
+// @import "components/navigation";
+// @import "components/button";
+// @import "components/hotel";
+// @import "components/reviews";
+// @import "components/slider";
+// @import "components/information";
+// @import "components/maps";
+// @import "components/liked-block";
+// @import "components/like-card";
+// @import "components/description-block";
 
 * {
     box-sizing: border-box;
