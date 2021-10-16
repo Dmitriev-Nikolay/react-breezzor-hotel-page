@@ -62,9 +62,9 @@ const Footer = () => {
                     <div>Русский (RU)</div>
                 </div>
                 <div className="social">
-                    <a href="https://ru-ru.facebook.com/" target="_blank" rel="noreferrer"><img src={ facebook } alt="Facebook" width="24" height="24" /></a>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src={ instagram } alt="Instagram" width="24" height="24" /></a>
-                    <a href="https://twitter.com/" target="_blank" rel="noreferrer"><img src={ twitter } alt="Twitter" width="24" height="24" /></a>
+                    <a href="https://ru-ru.facebook.com/" target="_blank"><img src={ facebook } alt="Facebook" width="24" height="24" /></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src={ instagram } alt="Instagram" width="24" height="24" /></a>
+                    <a href="https://twitter.com/" target="_blank"><img src={ twitter } alt="Twitter" width="24" height="24" /></a>
                 </div>
             </section>
         </footer>
